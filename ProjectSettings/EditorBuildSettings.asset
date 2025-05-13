@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Jetpack2DVideogame/MainMenu.unity
+    guid: 97b3a9e9a6fa81741a99f76c08da334f
+  - enabled: 1
+    path: Assets/Scenes/Jetpack2DVideogame/2DVideogame.unity
+    guid: 142b954404398d748a719c65a3c11c25
+  - enabled: 1
+    path: Assets/Scenes/Jetpack2DVideogame/Win.unity
+    guid: 9ffb3d9ef7c4e9a45b09070e9cd953ce
+  m_configObjects: {}
