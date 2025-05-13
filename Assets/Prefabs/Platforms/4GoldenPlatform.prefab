@@ -93,6 +93,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -463889552, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.g
+      value: 0.400387
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Intensity
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3089936796115391409, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
       propertyPath: m_Name
       value: PlatformPiece
@@ -164,6 +180,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -463889552, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.g
+      value: 0.400387
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Intensity
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3089936796115391409, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
       propertyPath: m_Name
       value: PlatformPiece (2)
@@ -235,6 +267,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -463889552, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.g
+      value: 0.400387
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Intensity
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3089936796115391409, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
       propertyPath: m_Name
       value: PlatformPiece (1)
@@ -306,6 +354,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -463889552, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.g
+      value: 0.400387
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680023223749273037, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
+      propertyPath: m_Intensity
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3089936796115391409, guid: 6c1b39e661a9221418ac04b0d1b7c857, type: 3}
       propertyPath: m_Name
       value: PlatformPiece (3)
