@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Rendering.Universal;
@@ -9,9 +8,10 @@ public class InGameController : MonoBehaviour
     [SerializeField] private Transform _playerTransform;
     [SerializeField] private AudioSource _caveAmbient;
     [SerializeField] private Light2D _finalFloorLight;
-    [SerializeField] private float _startIntensity = 60f;
-    [SerializeField] private float _endIntensity = 2f;
-    [SerializeField] private float _duration =1.5f;
+    private float _startIntensity = 15f;
+    private float _endIntensity = 2f;
+    private float _duration =2f; 
+    private bool _lightHasDimmed = false;
 
     private void Start()
     {
@@ -20,17 +20,25 @@ public class InGameController : MonoBehaviour
     }
     void Update()
     {
-        if (_playerTransform.position.y > 270)
+        if (_playerTransform.position.y < 2)
+        {
+            _lightHasDimmed = false;
+        }
+
+            if (_playerTransform.position.y > 270 && !_lightHasDimmed)
         {
             _caveAmbient.Stop();
             StartCoroutine(DimLight());
+            _lightHasDimmed = true;
         }
 
         if (Input.GetKeyUp(KeyCode.Escape))
             SceneManager.LoadScene("MainMenu");
 
         if (_playerTransform.position.y > 390)
+        {
             SceneManager.LoadScene("Win");
+        }
     }
 
     IEnumerator DimLight()

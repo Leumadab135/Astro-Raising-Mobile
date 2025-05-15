@@ -3,24 +3,21 @@ using UnityEngine.EventSystems;
 
 public class ButtonController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    // Estado de los botones
     public bool IsMovingRight = false;
     public bool IsMovingLeft = false;
     public bool IsFlying = false;
 
-    // Métodos de la interfaz de eventos
     public void OnPointerDown(PointerEventData eventData)
     {
-        // Revisamos el nombre del botón para activar la acción correcta
-        if (eventData.pointerEnter.name == "Walk R Button") // Si el botón presionado es el de la derecha
+        if (eventData.pointerEnter.name == "Walk R Button")
         {
             IsMovingRight = true;
-            IsMovingLeft = false; // Si movemos a la derecha, no movemos a la izquierda
+            IsMovingLeft = false;
         }
-        else if (eventData.pointerEnter.name == "Walk L Button") // Si el botón presionado es el de la izquierda
+        else if (eventData.pointerEnter.name == "Walk L Button")
         {
             IsMovingLeft = true;
-            IsMovingRight = false; // Si movemos a la izquierda, no movemos a la derecha
+            IsMovingRight = false;
         }
 
         if (eventData.pointerEnter.name == "Fly Button")
@@ -31,7 +28,6 @@ public class ButtonController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        // Detener movimiento cuando se suelta el botón
         IsMovingRight = false;
         IsMovingLeft = false;
         IsFlying = false;

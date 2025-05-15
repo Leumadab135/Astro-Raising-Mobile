@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Ground
   - Platform
+  - Table
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Table
   - Water
   - UI
   - 3rd Floor Middle Back
@@ -48,4 +49,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1038229089
+    locked: 0
+  - name: Clouds
+    uniqueID: 3877516621
     locked: 0
