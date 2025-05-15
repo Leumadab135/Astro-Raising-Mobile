@@ -1,47 +1,65 @@
-Astro-Raising
-Astro-Raising is a 2D pixel art platformer developed in Unity for web browsers. The player must ascend from the depths of a cave to the sky using a jetpack, dodging obstacles and managing their energy.
+# Astro-Raising
 
-How to Play
-The goal is to climb as high as possible without running out of energy. Obstacles can push you down or drain your energy, while boosts help you recover it.
+**Astro-Raising** es un juego de plataformas 2D en pixel art desarrollado en Unity para navegador. El jugador debe ascender desde lo más profundo de una cueva hasta el cielo utilizando un jetpack, esquivando obstáculos y gestionando su energía.
 
-Controls
-Fly upward with the jetpack
+---
 
-Propel to the left in the air
+## Cómo jugar
 
-Propel to the right in the air
+El objetivo es subir lo más alto posible sin quedarte sin energía. Los obstáculos pueden empujarte hacia abajo o agotar tu energía, mientras que los boosts te ayudan a recuperarla.
 
-Move left on the ground or in the air
+### Botones
 
-Move right on the ground or in the air
+-  Volar hacia arriba con el jetpack  
 
-The jetpack energy bar automatically recharges when the player is standing on a platform or on the ground.
+- Propulsarse a la izquierda en el aire  
 
-Features
-Progressive environments: from dark caves to the sky
+- Propulsarse a la derecha en el aire  
 
-Obstacles that hinder your ascent or drain energy
+- Moverse a la izquierda caminando o en el aire  
 
-Boosts to recharge energy and move faster
+- Moverse a la derecha caminando o en el aire
 
-Pixel art style with URP lighting
+> La barra de energía del jetpack se recarga automáticamente cuando el jugador está sobre una plataforma o en el suelo.
 
-Playable directly in your web browser
+---
 
-Smooth controls on both ground and air
+## Características
 
-Author
-Developed by Samuel David Jiménez
+- Ambientación progresiva: desde cuevas oscuras hasta el cielo.
 
-Most of the artwork was sourced from open libraries
+- Obstáculos que dificultan el ascenso o agotan energía.
 
-Some sprites and animations were created by the author
+- Boosts para recargar energía y avanzar más rápido.
 
-LinkedIn: https://www.linkedin.com/in/samuel-david-jiménez-viasus-1341822b0
+- Estilo visual pixel art con iluminación URP.
 
-Repository
-Official project repository:
-https://github.com/Leumadab135/Astro-Raising-Mobile
+- Jugable directamente en navegador.
 
-Project Status
-Completed project with potential future improvements.
+- Controles fluidos tanto en tierra como en el aire.
+
+---
+
+## Autor
+
+Desarrollado por **Samuel David Jiménez**
+
+- La mayoría del arte fue sacado de bibliotecas abiertas.
+
+- Algunos sprites y animaciones son creados por el autor.
+
+**LinkedIn**: [https://www.linkedin.com/in/samuel-david-jiménez-viasus-1341822b0​](https://www.linkedin.com/in/samuel-david-jiménez-viasus-1341822b0​)
+
+---
+
+## Repositorio
+
+Repositorio oficial del proyecto:  
+
+[https://github.com/Leumadab135/Astro-Raising-Mobile​](https://github.com/Leumadab135/Astro-Raising-Mobile​)
+
+---
+
+## Estado del proyecto
+
+Proyecto Acabado con posibles mejoras futuras.
